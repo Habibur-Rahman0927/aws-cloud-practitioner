@@ -20,11 +20,9 @@ A startup company is developing a mobile application that will allow users to up
 <summary>Show Answer</summary>
 
 ### ✅ Answer: 
-
-**B. Amazon S3**
+- **B. Amazon S3**
 
 ### 💡 Explanation:
-
 **Amazon S3 (Simple Storage Service)** is the ideal choice for this scenario due to several reasons:
 
 - **🔧 Scalability:** Amazon S3 scales seamlessly, allowing it to store an unlimited number of objects, making it perfect for a startup anticipating millions of photo uploads.
@@ -33,7 +31,6 @@ A startup company is developing a mobile application that will allow users to up
 - **💰 Cost-Effectiveness:** S3’s pay-as-you-go model is economical for startups, as they only pay for the storage and data transfer they use.
 
 Amazon S3's integration with other AWS services provides a robust, flexible solution for managing and delivering user-generated content.
-
 </details>
 
 ---
@@ -53,13 +50,10 @@ Which activities related to a Snowball Edge device are available to the company 
 <summary>Show Answer</summary>
 
 ### ✅ Answer: 
-
-**C. The transfer of data from the Snowball Edge appliance into Amazon S3**
+- **C. The transfer of data from the Snowball Edge appliance into Amazon S3**
 
 ### 💡 Explanation:
-
 Data transfer into Amazon S3 is $0.00 per GB (except for small files as explained below). Data transfer OUT of Amazon S3 is priced by region.
-
 </details>
 
 ---
@@ -79,11 +73,9 @@ Which AWS service can the company use to meet these requirements?
 <summary>Show Answer</summary>
 
 ### ✅ Answer: 
-
-**B. Amazon Inspector**
+- **B. Amazon Inspector**
 
 ### 💡 Explanation:
-
 Amazon Inspector is an automated vulnerability management service that continually scans AWS workloads for software vulnerabilities and unintended network exposure.
 The key word here is "vulnerabilities."
 
@@ -106,10 +98,9 @@ What is the most operationally efficient AWS solution for this scenario?
 <summary>Show Answer</summary>
 
 ### ✅ Answer: 
-**B. Configure and deploy an AWS Storage Gateway file gateway. Connect each user's workstation to the file gateway.**
+- **B. Configure and deploy an AWS Storage Gateway file gateway. Connect each user's workstation to the file gateway.**
 
 ### 💡 Explanation:
-
 AWS Storage Gateway file gateway is designed specifically for hybrid storage use cases where you want to extend your on-premises storage with the cloud while retaining the benefits of local file access performance. The file gateway provides a seamless and efficient solution by enabling local access to files and backing them up to Amazon S3. This meets the company's requirements of retaining local performance benefits while extending storage capabilities in an operationally efficient manner.
 </details>
 
@@ -128,10 +119,9 @@ According to security best practices, how should an Amazon EC2 instance be given
 <summary>Show Answer</summary>
 
 ### ✅ Answer: 
-**C. Have the EC2 instance assume a role to obtain the privileges to upload the file.**
+- **C. Have the EC2 instance assume a role to obtain the privileges to upload the file.**
 
 ### 💡 Explanation:
-
 Using an IAM role with an EC2 instance is a secure way to grant the instance permissions to interact with other AWS services such as S3. The IAM role provides temporary credentials that AWS rotates automatically and limits to the permissions required for the task. This method avoids the need to manage and securely store long-term credentials, reducing the risk of credential exposure and misuse.
 </details>
 
@@ -151,10 +141,9 @@ Which option is a customer's responsibility when using Amazon DynamoDB under the
 <summary>Show Answer</summary>
 
 ### ✅ Answer: 
-**C. Access to DynamoDB tables**
+- **C. Access to DynamoDB tables**
 
 ### 💡 Explanation:
-
 Under the AWS Shared Responsibility Model, controlling and managing access to AWS services, including Amazon DynamoDB tables, is a customer responsibility. While AWS takes care of the physical infrastructure, patching, and encryption of data at rest in DynamoDB, customers are responsible for setting up proper access controls, authentication, and authorization to protect their data and resources.
 </details>
 
@@ -175,7 +164,7 @@ Which option is a perspective that includes the foundational capabilities of the
 
 ### ✅ Answer: 
 
-C. Governance
+- **C. Governance**
 
 ### 💡 Explanation:
 
@@ -198,7 +187,7 @@ Which AWS service meets these requirements?
 <summary>Show Answer</summary>
 
 ### ✅ Answer: 
-**C. AWS Fargate**
+- **C. AWS Fargate**
 
 ### 💡 Explanation:
 
@@ -221,7 +210,7 @@ Which task is the responsibility of AWS in this scenario?
 <summary>Show Answer</summary>
 
 ### ✅ Answer: 
-**C. Patch the physical infrastructure that hosts the EC2 instances.**
+- **C. Patch the physical infrastructure that hosts the EC2 instances.**
 
 ### 💡 Explanation:
 
@@ -233,7 +222,7 @@ Patch the physical infrastructure that hosts the EC2 instances. Guest operating 
 ### 📝 10. Question:
 Which AWS services or tools can identify rightsizing opportunities for Amazon EC2 instances? (Choose two)
 
-#### Options:
+#### Options(Choose two):
 - A. AWS Cost Explorer.
 - B. AWS Billing Conductor.
 - C. Amazon CodeGuru.
@@ -244,8 +233,8 @@ Which AWS services or tools can identify rightsizing opportunities for Amazon EC
 <summary>Show Answer</summary>
 
 ### ✅ Answer: 
-**A. AWS Cost Explorer.**
-**E. AWS Compute Optimizer.**
+- **A. AWS Cost Explorer.**
+- **E. AWS Compute Optimizer.**
 
 ### 💡 Explanation:
 These tools provide insights into cost management and optimization, helping AWS customers to efficiently manage their EC2 instance resources by identifying opportunities for rightsizing based on usage and performance metrics.
@@ -253,6 +242,143 @@ These tools provide insights into cost management and optimization, helping AWS 
 
 ---
 
+### 📝 11. Question:
+Which of the following are the benefits of using AWS Trusted Advisor?
+
+#### Options(Choose two):
+- A. Providing high-performance container orchestration.
+- B. Creating and rotating encryption keys.
+- C. Detecting underutilized resources to save costs.
+- D. Improving security by proactively monitoring the AWS environment.
+- E. Implementing enforced tagging across AWS resources.
+
+<details>
+<summary>Show Answer</summary>
+
+### ✅ Answer: 
+- **C. Detecting underutilized resources to save costs.**
+- **D. Improving security by proactively monitoring the AWS environment.**
+
+### 💡 Explanation:
+**Benefits of Trusted Advisor:**
+1. Cost optimization - A Trusted Advisor can help you save cost with actionable recommendations by analyzing usage, configuration, and spending.
+2. Performance - A Trusted Advisor can help improve the performance of your services with actionable recommendations by analyzing usage, and configuration.
+3. Security - A Trusted Advisor can help improve the security of your AWS environment by suggesting foundational security best practices curated by security experts.
+4. Fault tolerance - A Trusted Advisor can help improve the reliability of your services.
+5. Service quotas - Service quotas are the maximum number of resources that you can create in an AWS account.
+</details>
+
+---
+### 📝 12. Question:
+Which of the following is an advantage that users experience when they move on-premises workloads to the AWS Cloud?
+
+#### Options:
+- A. Elimination of expenses for running and maintaining data centers.
+- B. Price discounts that are identical to discounts from hardware providers.
+- C. Distribution of all operational controls to AWS.
+- D. Elimination of operational expenses.
+
+<details>
+<summary>Show Answer</summary>
+
+### ✅ Answer: 
+- **A. Elimination of expenses for running and maintaining data centers.**
+
+### 💡 Explanation:
+The advantage of "Elimination of expenses for running and maintaining data centers" is a clear and significant benefit when migrating workloads to the AWS Cloud. It highlights the financial and operational benefits of leveraging AWS’s global infrastructure, which reduces the need for companies to invest in and maintain their own data centers.
+</details>
+
+---
+
+### 📝 13. Scenario:
+A Company wants to manage deployed IT services and govern its infrastructure as code (IaC) templates.
+Which AWS service will meet this requirement?
+
+#### Options:
+- A. AWS Resource Explorer.
+- B. AWS Service Catalog.
+- C. AWS Organizations.
+- D. AWS Systems Manager.
+
+<details>
+<summary>Show Answer</summary>
+
+### ✅ Answer: 
+- **B. AWS Service Catalog.**
+
+### 💡 Explanation:
+AWS Service Catalog lets you centrally manage your cloud resources to achieve governance at scale of your infrastructure as code (IaC) templates, written in CloudFormation or Terraform configurations. With AWS Service Catalog, you can meet your compliance requirements while making sure your customers can quickly deploy the cloud resources they need.
+</details>
+
+---
+
+### 📝 14. Question:
+Which AWS service or tool helps users visualize, understand, and manage spending and usage over time?
+
+#### Options:
+- A. AWS Organizations.
+- B. AWS Pricing Calculator.
+- C. AWS Cost Explorer.
+- D. AWS Service Catalog.
+
+<details>
+<summary>Show Answer</summary>
+
+### ✅ Answer: 
+- **C. AWS Cost Explorer.**
+
+### 💡 Explanation:
+AWS Cost Explorer has an easy-to-use interface that lets you visualize, understand, and manage your AWS costs and usage over time. Get started quickly by creating custom reports that analyze cost and usage data. Analyze your data at a high level (for example, total costs and usage across all accounts), or dive deeper into your cost and usage data to identify trends, pinpoint cost drivers, and detect anomalies.
+</details>
+
+---
+### 📝 15. Scenario:
+A company is using a central data platform to manage multiple types of data for its customers. The company wants to use AWS services to discover, transform, and visualize the data.
+Which combination of AWS services should the company use to meet these requirements?
+
+#### Options(Choose two):
+- A. AWS Glue.
+- B. Amazon Elastic File System (Amazon EFS).
+- C. Amazon Redshift.
+- D. Amazon QuickSight.
+- E. Amazon Quantum Ledger Database (Amazon QLDB)
+
+<details>
+<summary>Show Answer</summary>
+
+### ✅ Answer: 
+- **A. AWS Glue.**
+- **D. Amazon QuickSight.**
+
+### 💡 Explanation:
+AWS Glue is a serverless data integration service that makes it easier to discover, prepare, move, and integrate data from multiple sources for analytics, machine learning (ML), and application development.
+
+Amazon QuickSight powers data-driven organizations with unified business intelligence (BI) at hyperscale. With QuickSight, all users can meet varying needs from the same source of truth through modern interactive dashboards, paginated reports, embedded analytics, and natural language queries.
+</details>
+
+---
+
+### 📝 16. Scenario:
+A global company wants to migrate its third-party applications to the AWS Cloud. The company wants help from a global team of experts to complete the migration faster and more reliably in accordance with AWS internal best practices.
+Which AWS service or resource will meet these requirements?
+
+#### Options:
+- A. AWS Support.
+- B. AWS Professional Services.
+- C. AWS Launch Wizard.
+- D. AWS Managed Services (AMS).
+
+<details>
+<summary>Show Answer</summary>
+
+### ✅ Answer: 
+- **B. AWS Professional Services.**
+
+### 💡 Explanation:
+AWS Partner Network (APN) Consulting Partners help customers design, architect, build, migrate, and manage workloads and applications on Amazon Web Services.
+</details>
+
+---
 ## 📚 Additional Resources
 
 - 📘 [Amazon S3 Documentation](https://docs.aws.amazon.com/s3/index.html)
