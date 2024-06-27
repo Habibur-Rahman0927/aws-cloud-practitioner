@@ -427,4 +427,4 @@ Wishing you all the best on your journey to AWS certification! Explore, learn, a
 
 ---
 
-![AWS Cloud](https://user-images.githubusercontent.com/example/aws-cloud-image.jpg)
+![AWS Cloud](https://cdn.iconscout.com/icon/free/png-256/free-amazon-aws-3628617-3029842.png)
