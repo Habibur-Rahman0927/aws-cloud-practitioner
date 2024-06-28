@@ -379,6 +379,28 @@ AWS Partner Network (APN) Consulting Partners help customers design, architect, 
 </details>
 
 ---
+
+### 📝 17. Scenario:
+An e-learning platform needs to run an application for 2 months each year. The application will be deployed on Amazon EC2 instances. Any application downtime during those 2 months must be avoided.
+Which EC2 purchasing option will meet these requirements MOST cost-effectively?
+
+#### Options:
+- A. Reserved Instances.
+- B. Dedicated Hosts.
+- C. Spot Instances.
+- D. On-Demand Instances.
+
+<details>
+<summary>Show Answer</summary>
+
+### ✅ Answer: 
+- **D. On-Demand Instances.**
+
+### 💡 Explanation:
+On-Demand Instances are recommended for Users who prefer the low cost and flexibility of EC2 without any upfront payment or long-term commitment. Applications with short-term, spiky, or unpredictable workloads that cannot be interrupted. Applications being developed or tested on EC2 for the first time.
+</details>
+
+---
 ## 📚 Additional Resources
 
 - 📘 [Amazon S3 Documentation](https://docs.aws.amazon.com/s3/index.html)
